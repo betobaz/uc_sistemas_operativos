@@ -1,1 +1,5 @@
-# uc_sistemas_operativos
+# Sistemas Operativos
+
+## Sesión 8
+
+Arrancamos!
