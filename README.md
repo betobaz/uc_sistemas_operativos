@@ -13,4 +13,11 @@ docker run --rm -it ubuntu bash
 # Ver todos los dispositivos disponibles
 ls -la /dev | head -30
 ls -la /dev | tail -30
+
+# Dispositivos de bloque (discos y particiones)
+lsblk
+
+# Lista de todos los drivers cargados en el kernel
+cat /proc/devices
+
 ```
