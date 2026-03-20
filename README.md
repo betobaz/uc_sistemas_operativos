@@ -21,3 +21,16 @@ lsblk
 cat /proc/devices
 
 ```
+
+### WSL - Interrupciones y DMA en vivo
+
+```
+watch -n 1 cat /proc/interrupts
+
+# Ver canales DMA del sistema
+cat /proc/dma
+
+# Ver estadisticas de E/S del disco en tiempo real
+iostat -x 1 3
+# (instalar con: apt-get install sysstat)
+```
